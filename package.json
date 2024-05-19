@@ -1,5 +1,6 @@
 {
-    
+    "private": false,
+    "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "vite build"
@@ -10,8 +11,4 @@
         "vite": "^5.0.0"
     }
 }
-{
-  "scripts": {
-    "build": "[my-framework] build --output public"
-  }
-}
+
