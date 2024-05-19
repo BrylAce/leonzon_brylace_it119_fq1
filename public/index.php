@@ -53,3 +53,7 @@ $response = $kernel->handle(
 )->send();
 
 $kernel->terminate($request, $response);
+<?php
+// Forward Vercel requests to normal index.php
+require __DIR__ . '/../public/index.php';
+?>
